@@ -109,7 +109,7 @@ public class RegisterServlet extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");
 
 			connection = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/test", "root", "");
+					"https://husainlibrary-husainlibrary.rhcloud.com/phpmyadmin/", "adminkxiekL8", "_bH3ZKCbkfka");
 			statment = connection.createStatement();
 			ResultSet rs = null;
 			if (state != null) {
